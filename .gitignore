@@ -1,0 +1,56 @@
+# === Python / FastAPI ===
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+
+# === Node / React (Vite) ===
+node_modules/
+dist/
+.env.local
+.env.*.local
+
+# === Logs / OS ===
+*.log
+.DS_Store
+Thumbs.db
+
+# === IDEs ===
+.vscode/
+.idea/
+
+# === Frontend build ===
+frontend/dist/
+
+# === Backend auto files ===
+backend/app/__pycache__/
+
+# === Tests / Coverage (si ajoutés plus tard) ===
+.coverage
+coverage/
+htmlcov/
+
+# === Cache divers ===
+*.cache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === Git ===
+*.orig
+
+# === Screenshots / fichiers temporaires ===
+*.png
+*.jpg
+*.jpeg
+*.tmp
+*.swp
+
+# === JetBrains ===
+*.iml
+*.ipr
+*.iws
+.idea/
