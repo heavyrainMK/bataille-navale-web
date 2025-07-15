@@ -813,7 +813,7 @@ export default function App() {
           </div>
         )}
 
-        {/* ---------- PHASE PLACEMENT (fusion grille + panel) ----------- */}
+        {/* ---------- PHASE PLACEMENT ----------- */}
         {phase === PHASES.PLACEMENT && (
           <div className="game-section fadein-phase" style={{ display: "flex", gap: 32 }}>
             <PlacementPanel
