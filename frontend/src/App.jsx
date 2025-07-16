@@ -16,11 +16,11 @@
  */
 
 import React, { useState, useRef } from "react";
-import PlacementPanel from "./components/PlacementPanel";
-import GameBoard from "./components/GameBoard";
-import VantaBackground from "./components/VantaBackground";
-import { connectWebSocket, sendWS, closeWebSocket } from "./utils/ws";
-import "./styles/main.css";
+import PlacementPanel from "@/components/PlacementPanel";
+import GameBoard from "@/components/GameBoard";
+import VantaBackground from "@/components/VantaBackground";
+import { connectWebSocket, sendWS, closeWebSocket } from "@/utils/ws";
+import "@/styles/main.css";
 import {
   Loader2, Check, Repeat2, ThumbsUp, Menu as MenuIcon, FileText,
   LayoutList, Crosshair, Trophy, Ship, Waves, Hourglass, Play,

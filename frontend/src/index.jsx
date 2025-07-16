@@ -16,8 +16,8 @@
 
 import React from "react";
 import { createRoot } from "react-dom/client";
-import App from "./App";
-import "./styles/main.css";
+import App from "@/App";
+import "@/styles/main.css";
 
 // Récupère la div racine dans le HTML
 const root = createRoot(document.getElementById("root"));
