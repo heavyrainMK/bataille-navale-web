@@ -342,9 +342,9 @@ async def websocket_jeu(websocket: WebSocket, id_salle: str):
         while True:
             try:
                 donnees = await websocket.receive_json()
-                print(f"📨 Message reçu: {donnees}")
+                print(f"Message reçu: {donnees}")
             except Exception as e:
-                print(f"❌ Erreur pendant receive_json: {e}")
+                print(f"Erreur pendant receive_json: {e}")
                 traceback.print_exc()
                 break
 

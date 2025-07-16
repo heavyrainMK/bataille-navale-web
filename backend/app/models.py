@@ -124,9 +124,9 @@ TousPayloads = Union[
     SimpleActionPayload,
 ]
 
-# ------------------------------------------------------------
-#  Exemples de réponses du serveur (adapter selon besoin)
-# ------------------------------------------------------------
+# ------------------------------
+#  Réponses du serveur
+# ------------------------------
 
 class ReponseJoueurConnecte(BaseModel):
     """
