@@ -77,7 +77,7 @@ BATAILLE-NAVALE-WEB/
 - 🎮 Placement manuel ou automatique des navires
 - 🔁 Jeu tour par tour avec logique de tour serveur
 - 📡 Communication WebSocket temps réel
-- 🎨 UI moderne et responsive avec animations Vanta.js
+- 🎨 UI moderne et réactive avec animations Vanta.js
 - ✅ Détection de victoire, rejouabilité, messages d'état
 - 🧠 Anti-spam côté serveur (protection des actions)
 
