@@ -16,7 +16,7 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-// À personnaliser selon l’adresse/port du backend utilisé (FastAPI)
+// Port du backend (API + WebSocket) pour le proxy
 const BACKEND_PORT = 8000;
 
 export default defineConfig({
